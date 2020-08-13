@@ -1,0 +1,5 @@
+print('Vien')
+print(1+4*56-88/2)
+print('hello', end='')
+print('world')
+print('hello\nworld')

@@ -1,0 +1,31 @@
+
+#1. 字符串拼接
+
+name = 'Crossin'
+age = 18
+code = 'Python'
+
+result = '%s is %d, he writes %s'%(name, age, code)
+print(result)
+
+#2. print()
+
+num1 = '3.3'
+num2 = 2.5
+
+#将 num1 转化为浮点数
+num1 = float(num1)
+
+print(num1 + num2)
+
+#3. bool 类型转换
+
+ bool(-123)   #True
+ bool(0) #False
+ bool('abc') #True
+ bool('False') #True
+ bool('') #False
+ bool([]) #False
+ bool({}) #False
+ bool(['']) #True
+ bool(None) #False

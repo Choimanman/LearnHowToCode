@@ -1,0 +1,28 @@
+
+#1. 输出变量
+
+num = input('请猜一个数：')
+print('你的输入是：' + str(num))
+
+#2. 变量计算
+
+money = 20
+result = money * 2 + 50
+print(result)
+
+#3.  变量类型
+
+a = 'hello,world'  #字符串
+b = 1.414   #浮点数
+c = (1 != 2) #bool  True
+d = (True and False) #bool False
+e = (True or False) #bool True
+print(a, b, c, d, e)
+
+a = type(a)
+b = type(b)
+c = type(c)
+d = type(d)
+e = type(e)
+
+print(a, b, c, d, e)

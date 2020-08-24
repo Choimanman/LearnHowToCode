@@ -1,0 +1,59 @@
+#1. if 条件判断
+
+money = 88
+if money > 100:
+    print('rich')
+else:
+    print('poor')
+
+#2.  验证代码
+    
+#(a)  True
+    
+bingo = False
+if bingo == False:
+    print(True)
+else:
+    print(False)
+
+#(b) False
+
+b = 3
+if b - 3:   # 这句约等于 if b == False:
+    print(True)
+else:
+    print(False)
+
+#(c) True 或 Fasle 基于输入的内容
+
+x = input('请输入内容')  
+if x:   
+    print(True)
+else:
+    print(False)
+
+#(d)
+    
+a = True
+b = not a
+print(b) #False
+print(not b) #True
+print(a == b) #False
+print(a != b) #True
+print(a and b) #False
+print(a or b) #True
+print(1 < 2 and b == True) #False
+
+#3. BMI  计算器
+
+height = float(input('请输入你的身高(m):'))
+weight = float(input('请输入你的体重(kg):'))
+
+BMI = weight / (height*height)
+
+if BMI < 18.5:
+    print('您的体重太轻了，会被大风刮走的！请多吃一点。')
+elif BMI >= 24:
+    print('您的体重过重，别吃太多呀！')
+else:
+    print('很棒，您的体重正常。继续保持哟')

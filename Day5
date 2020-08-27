@@ -1,0 +1,37 @@
+
+#1. 计算 100 以内所有 3 的倍数的和
+
+sum = 0
+for i in range(1,100):
+    if i%3 == 0:
+        sum += i
+print(sum)
+
+#2. 分别输入高和宽两个整数，输出对应高度和宽度的矩形
+
+length = int(input('请输入长：'))
+width = int(input('请输入宽:'))
+for i in range(0,length):
+    for j in range(0,width):
+        print('*', end = ' ')
+    print()
+
+
+#3. 输出99乘法口诀表
+
+for i in range(1,10):
+    for j in range(1,i+1):
+        print('%d x %d = %d'%(j,i, i*j), end = ' ')
+    print()
+
+#4. 跳出循环
+
+nums = [23, 45, 8, 13, 50, 43, 21]
+
+sum = 0
+for n in nums:
+    sum += n
+    if sum > 100:
+        break
+print(sum)
+
